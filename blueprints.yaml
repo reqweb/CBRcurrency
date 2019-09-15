@@ -1,0 +1,26 @@
+name: CBRcurrency
+version: 1.0.0
+description: Plugin for Grac CMS for currency conversion, CBR (Russian)
+icon: euro
+author:
+  name: Reqweb
+  email: reqweb-dev@yandex.ru
+  url: http://reqweb.net
+keywords: plugin, currency
+homepage: https://github.com/reqweb/CBRcurrency
+bugs: https://github.com/getgrav/grav-plugin-email/issues
+license: MIT
+  
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
