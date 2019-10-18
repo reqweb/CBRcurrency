@@ -1,4 +1,4 @@
-## Plugin for Grac CMS for currency conversion, CBR (Russian)
+## Plugin for Grav CMS for currency conversion, CBR (Russian)
 **This is a plugin For the currencies of the Bank of Russia, therefore it works with the currency "Ruble"**
 
 The plugin refers to [cbr.ru/scripts/XML_daily.asp](https://www.cbr.ru/scripts/XML_daily.asp)<br>
